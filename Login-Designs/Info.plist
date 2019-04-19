@@ -45,6 +45,8 @@
 	<array>
 		<string>RobotoSlab-Bold.ttf</string>
 		<string>RobotoSlab-Light.ttf</string>
+		<string>OpenSans-Regular.ttf</string>
+		<string>OpenSans-Bold.ttf</string>
 	</array>
 </dict>
 </plist>

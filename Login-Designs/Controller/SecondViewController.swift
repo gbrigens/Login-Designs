@@ -8,15 +8,14 @@
 
 import UIKit
 
-class SecondViewController: UITableViewController {
+class SecondViewController: UIViewController {
     override var preferredStatusBarStyle: UIStatusBarStyle { return .lightContent }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.backgroundView = UIImageView(image: UIImage(named: "design_two/bg.png"))
-        tableView.keyboardDismissMode = .onDrag
 
         // Do any additional setup after loading the view.
+        setImageBackground()
     }
     
 
@@ -29,6 +28,19 @@ class SecondViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func setImageBackground(){
+        let background = UIImage(named: "design_two/bg")
+        
+        var imageView : UIImageView!
+        imageView = UIImageView(frame: view.bounds)
+        imageView.contentMode =  UIView.ContentMode.scaleAspectFill
+        imageView.clipsToBounds = true
+        imageView.image = background
+        imageView.center = view.center
+        view.addSubview(imageView)
+        self.view.sendSubviewToBack(imageView)
+    }
 
 }
 
@@ -42,3 +54,4 @@ extension UITextField{
         }
     }
 }
+

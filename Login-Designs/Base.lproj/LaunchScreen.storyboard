@@ -18,26 +18,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splashscreen/SplashScreen" translatesAutoresizingMaskIntoConstraints="NO" id="Bgy-GW-FHv">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="tvE-u1-Tf8">
+                                <rect key="frame" x="32" y="273" width="350" height="350"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Bgy-GW-FHv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="HJV-6C-wlL"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bgy-GW-FHv" secondAttribute="trailing" id="RZ6-zu-wgd"/>
-                            <constraint firstItem="Bgy-GW-FHv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="akn-bm-NbN"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Bgy-GW-FHv" secondAttribute="bottom" id="gSF-UK-lMx"/>
+                            <constraint firstItem="tvE-u1-Tf8" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="H07-VO-Y3L"/>
+                            <constraint firstItem="tvE-u1-Tf8" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="boS-xh-LCJ"/>
+                            <constraint firstItem="tvE-u1-Tf8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="229" id="oXb-P7-FaF"/>
+                            <constraint firstItem="tvE-u1-Tf8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="veu-fN-d6G"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Splashscreen/SplashScreen" width="375" height="812"/>
+        <image name="icon" width="1024" height="1024"/>
     </resources>
 </document>

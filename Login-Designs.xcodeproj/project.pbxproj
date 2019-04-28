@@ -115,13 +115,13 @@
 			children = (
 				E21C007C2268EFEC00E0ECCD /* AppDelegate.swift */,
 				E21C00802268EFEC00E0ECCD /* Main.storyboard */,
-				E2A0BEF4226CEA1C001F43AA /* ShadowView.swift */,
 				E2ED919F226DB4C4004C76B7 /* Controller */,
 				E21C00852268EFEE00E0ECCD /* LaunchScreen.storyboard */,
 				E2168B3D226A418400163F7C /* Assets.xcassets */,
 				E21C008E2268FB1F00E0ECCD /* fonts */,
 				E21C0093226903E000E0ECCD /* FormTextField.swift */,
 				E2A0BEFC226D92F0001F43AA /* DesignableUITextField.swift */,
+				E2A0BEF4226CEA1C001F43AA /* ShadowView.swift */,
 				E21C00882268EFEE00E0ECCD /* Info.plist */,
 			);
 			path = "Login-Designs";

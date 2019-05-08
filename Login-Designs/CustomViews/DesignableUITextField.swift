@@ -32,32 +32,10 @@ class DesignableUITextField: UITextField {
         }
     }
     
-    @IBInspectable var paddingLeftCustom: CGFloat {
-        get {
-            return leftView!.frame.size.width
-        }
-        set {
-            let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: newValue, height: frame.size.height))
-            leftView = paddingView
-            leftViewMode = .always
-        }
-    }
-    
-    @IBInspectable var paddingRightCustom: CGFloat {
-        get {
-            return rightView!.frame.size.width
-        }
-        set {
-            let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: newValue, height: frame.size.height))
-            rightView = paddingView
-            rightViewMode = .always
-        }
-    }
-    
     func updateView() {
         if let image = leftImage {
             leftViewMode = UITextField.ViewMode.always
-            let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 20, height: 20))
+            let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 40, height: 20))
             imageView.contentMode = .scaleAspectFit
             imageView.image = image
             // Note: In order for your image to use the tint color, you have to select the image in the Assets.xcassets and change the "Render As" property to "Template Image".

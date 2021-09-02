@@ -8,18 +8,14 @@ iOS login Screens Designs inspired by [Project365.design](https://project365.des
 - Designed all screens.
 
 ## Todo
-- Fix cosmetic issues on the designs.
-- Adapptive layout to fit all screens.
-- Animation.
+- Design all the screens programatically.
 
 ## Requirement 
-- Xcode Version 10.2
- - [Cocoapod](http://cocoapods.org/)
+- Xcode Version 12+
 
 ## Installation
 1. Clone the project.
-2. Open the folder in terminal and run `pod install` to install all required `pods`.
-3. Enjoy :).
+2. Enjoy :).
 
 ## Credits
 ── Product Designer @ HappyFox ── 

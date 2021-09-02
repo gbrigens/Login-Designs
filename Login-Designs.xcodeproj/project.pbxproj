@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BAA488A31616AF4C07D43CC2 /* Pods_Login_Designs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1A5C10790268EB0F4741BC /* Pods_Login_Designs.framework */; };
+		3304C7F626E116940003E6A4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3304C7F526E116940003E6A4 /* SnapKit */; };
+		3304C7F926E116C40003E6A4 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3304C7F826E116C40003E6A4 /* IQKeyboardManagerSwift */; };
 		E2168B38226A2F9300163F7C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2168B37226A2F9300163F7C /* SecondViewController.swift */; };
 		E2168B3A226A353000163F7C /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2168B39226A351400163F7C /* OpenSans-Regular.ttf */; };
 		E2168B3C226A3B0D00163F7C /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2168B3B226A3AE000163F7C /* OpenSans-Bold.ttf */; };
@@ -38,9 +39,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E1A5C10790268EB0F4741BC /* Pods_Login_Designs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Login_Designs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A0EFFE8026969710110EA33 /* Pods-Login-Designs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login-Designs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Login-Designs/Pods-Login-Designs.debug.xcconfig"; sourceTree = "<group>"; };
-		6023CAE17DFB29CFD14FBA05 /* Pods-Login-Designs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login-Designs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Login-Designs/Pods-Login-Designs.release.xcconfig"; sourceTree = "<group>"; };
 		E2168B37226A2F9300163F7C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E2168B39226A351400163F7C /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		E2168B3B226A3AE000163F7C /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
@@ -77,28 +75,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAA488A31616AF4C07D43CC2 /* Pods_Login_Designs.framework in Frameworks */,
+				3304C7F626E116940003E6A4 /* SnapKit in Frameworks */,
+				3304C7F926E116C40003E6A4 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		912A5646F4AE0B14D6AE2810 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3E1A5C10790268EB0F4741BC /* Pods_Login_Designs.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		E21C00702268EFEC00E0ECCD = {
 			isa = PBXGroup;
 			children = (
 				E21C007B2268EFEC00E0ECCD /* Login-Designs */,
 				E21C007A2268EFEC00E0ECCD /* Products */,
-				F9E24B5D5DDE8ED5C32A6867 /* Pods */,
-				912A5646F4AE0B14D6AE2810 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,15 +174,6 @@
 			path = CustomViews;
 			sourceTree = "<group>";
 		};
-		F9E24B5D5DDE8ED5C32A6867 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5A0EFFE8026969710110EA33 /* Pods-Login-Designs.debug.xcconfig */,
-				6023CAE17DFB29CFD14FBA05 /* Pods-Login-Designs.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -201,17 +181,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E21C008B2268EFEE00E0ECCD /* Build configuration list for PBXNativeTarget "Login-Designs" */;
 			buildPhases = (
-				292D37B188B7F046EEDE9B01 /* [CP] Check Pods Manifest.lock */,
 				E21C00752268EFEC00E0ECCD /* Sources */,
 				E21C00762268EFEC00E0ECCD /* Frameworks */,
 				E21C00772268EFEC00E0ECCD /* Resources */,
-				306ABF8B1C2408C929D646B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Login-Designs";
+			packageProductDependencies = (
+				3304C7F526E116940003E6A4 /* SnapKit */,
+				3304C7F826E116C40003E6A4 /* IQKeyboardManagerSwift */,
+			);
 			productName = "Login-Designs";
 			productReference = E21C00792268EFEC00E0ECCD /* Login-Designs.app */;
 			productType = "com.apple.product-type.application";
@@ -223,7 +205,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = "Gerald Brigen";
 				TargetAttributes = {
 					E21C00782268EFEC00E0ECCD = {
@@ -240,6 +222,10 @@
 				Base,
 			);
 			mainGroup = E21C00702268EFEC00E0ECCD;
+			packageReferences = (
+				3304C7F426E116940003E6A4 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				3304C7F726E116C40003E6A4 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = E21C007A2268EFEC00E0ECCD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -275,53 +261,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		292D37B188B7F046EEDE9B01 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Login-Designs-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		306ABF8B1C2408C929D646B6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Login-Designs/Pods-Login-Designs-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Login-Designs/Pods-Login-Designs-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E21C00752268EFEC00E0ECCD /* Sources */ = {
@@ -389,6 +328,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -450,6 +390,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -481,7 +422,6 @@
 		};
 		E21C008C2268EFEE00E0ECCD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A0EFFE8026969710110EA33 /* Pods-Login-Designs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -500,7 +440,6 @@
 		};
 		E21C008D2268EFEE00E0ECCD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6023CAE17DFB29CFD14FBA05 /* Pods-Login-Designs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +478,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3304C7F426E116940003E6A4 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		3304C7F726E116C40003E6A4 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3304C7F526E116940003E6A4 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3304C7F426E116940003E6A4 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		3304C7F826E116C40003E6A4 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3304C7F726E116C40003E6A4 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E21C00712268EFEC00E0ECCD /* Project object */;
 }
